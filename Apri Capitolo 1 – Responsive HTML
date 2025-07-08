@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitolo 1 - Il Debito Non è un Problema</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffdf7;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .text {
+            flex: 1;
+            min-width: 300px;
+            max-width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .image {
+            flex: 1;
+            min-width: 300px;
+            max-width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center; color:#d28e00; padding-top: 20px;">Capitolo 1 - Il Debito Non è un Problema</h1>
+    <div class="container">
+        <div class="text">
+            <p>C’era una volta un mondo bellissimo,<br>pieno di idee, mani laboriose e cuori generosi.<br><br>Ma in quel mondo c’era una frase che tutti ripetevano:<br>“Non ci sono i soldi.”<br><br>Lo dicevano i telegiornali, i politici,<br>persino i cartelli sugli ospedali e nelle scuole.</p>
+        </div>
+        <div class="image">
+            <img src="/mnt/data/A_two-page_spread_from_a_children’s_storybook_feat.png" alt="Illustrazione Capitolo 1">
+        </div>
+        <div class="text">
+            <p>Ma c’era chi cominciava a chiedersi:<br>— Ma com’è possibile? I soldi spariscono?<br>Li mangiano i topi?<br><br>E così iniziò un viaggio…<br>per scoprire dove nascono davvero i soldi,<br>e come possono diventare ponti,<br>case, cure, abbracci…<br>e persino poesia.</p>
+        </div>
+    </div>
+</body>
+</html>
